@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tradutor Sinaslingo</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Importação do CSS -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Tradutor Sinaslingo</h1>
+    <label for="inputText">Digite o texto:</label><br>
+    <textarea id="inputText" rows="4" cols="50"></textarea><br><br>
+    <button onclick="translateToSinaslingo()">Traduzir para Sinaslingo</button>
+    <button onclick="translateToNormal()">Traduzir para Alfabeto Normal</button>
+    <h2>Texto Traduzido:</h2>
+    <p id="outputText"></p>
+  </div>
+</body>
+</html>
